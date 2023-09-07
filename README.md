@@ -9,7 +9,7 @@ sudo apt install vim htop vlc inkscape ffmpeg texlive-full git net-tools gimp pd
 ```
 
 # snap / download deb / AppImage
-mendeley, zoom
+mendeley
 
 ```
 sudo snap install freecad bitwarden
