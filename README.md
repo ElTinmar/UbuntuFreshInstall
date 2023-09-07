@@ -8,8 +8,8 @@ sudo apt update & sudo apt upgrade
 sudo apt install vim htop vlc inkscape ffmpeg texlive-full git net-tools gimp pdftk ubuntu-restricted-extras openssh-server build-essential checkinstall pkg-config libgtk-3-dev libxcb-cursor0
 ```
 
-# snap / download
-bitwarden, mendeley, zoom, Fiji, miniconda, discord
+# snap / download deb / AppImage
+bitwarden, mendeley, zoom, Fiji, miniconda, discord, FreeCAD
 
 # miniconda
 ```
