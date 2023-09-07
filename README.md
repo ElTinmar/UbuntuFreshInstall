@@ -14,6 +14,11 @@ mendeley, zoom
 ```
 sudo snap install freecad bitwarden
 ```
+# zoom
+```
+wget -O zoom.deb https://zoom.us/client/latest/zoom_amd64.deb
+sudo apt install ./zoom.deb
+```
 
 # Fiji
 ```
