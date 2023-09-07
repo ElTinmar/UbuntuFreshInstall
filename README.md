@@ -9,7 +9,7 @@ sudo apt install vim htop vlc inkscape ffmpeg texlive-full git net-tools gimp pd
 ```
 
 # snap / download
-bitwarden, mendeley, zoom, Fiji, miniconda, 
+bitwarden, mendeley, zoom, Fiji, miniconda, discord
 
 # vscode
 ```
