@@ -12,12 +12,13 @@ sudo apt install vim htop vlc inkscape ffmpeg texlive-full git net-tools gimp pd
 mendeley, zoom
 
 ```
-sudo snap install freecad discord bitwarden
+sudo snap install freecad bitwarden
 ```
 
 # Fiji
 ```
 wget https://downloads.imagej.net/fiji/latest/fiji-linux64.zip
+```
 
 # discord
 ```
