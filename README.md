@@ -1,14 +1,21 @@
-# UbuntuFreshInstallsudo apt update & sudo apt upgrade
+## UbuntuFreshInstall
+```
+sudo apt update & sudo apt upgrade
+```
+# apt
 
-## apt
+```
 sudo apt install vim htop vlc inkscape ffmpeg texlive-full git net-tools gimp pdftk ubuntu-restricted-extras openssh-server build-essential checkinstall pkg-config libgtk-3-dev libxcb-cursor0
+```
 
-## snap / download
+# snap / download
 bitwarden, mendeley, zoom, Fiji, miniconda, 
 
 # vscode
+```
 wget -O vscode.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
 sudo apt install ./vscode.deb
+```
 
 ## configure
 - thunderbird
