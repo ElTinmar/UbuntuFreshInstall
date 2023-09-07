@@ -22,7 +22,7 @@ wget https://downloads.imagej.net/fiji/latest/fiji-linux64.zip
 
 # discord
 ```
- wget -O discord.deb 'https://discord.com/api/download?platform=linux&format=deb'
+wget -O discord.deb 'https://discord.com/api/download?platform=linux&format=deb'
 sudo apt install ./discord.deb
 ```
 
