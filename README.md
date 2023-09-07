@@ -11,6 +11,11 @@ sudo apt install vim htop vlc inkscape ffmpeg texlive-full git net-tools gimp pd
 # snap / download deb / AppImage
 bitwarden, mendeley, zoom, Fiji, miniconda, discord, FreeCAD
 
+# Fiji
+```
+wget https://downloads.imagej.net/fiji/latest/fiji-linux64.zip
+```
+
 # miniconda
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
