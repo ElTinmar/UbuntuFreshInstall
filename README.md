@@ -44,6 +44,11 @@ wget -O vscode.deb 'https://code.visualstudio.com/sha/download?build=stable&os=l
 sudo apt install ./vscode.deb
 ```
 
+# nordvpn
+```
+sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
+``
+
 ## configure
 - thunderbird
 - gedit 
