@@ -5,7 +5,10 @@ sudo apt update & sudo apt upgrade
 # apt
 
 ```
-sudo apt install vim htop vlc inkscape ffmpeg texlive-full git net-tools gimp pdftk ubuntu-restricted-extras openssh-server build-essential checkinstall pkg-config libgtk-3-dev libxcb-cursor0 pandoc
+sudo apt install vim htop vlc inkscape ffmpeg texlive-full git \
+  net-tools gimp pdftk ubuntu-restricted-extras openssh-server \
+  build-essential checkinstall pkg-config libgtk-3-dev libxcb-cursor0 \
+  pandoc nvtop
 ```
 
 # snap / download deb / AppImage
