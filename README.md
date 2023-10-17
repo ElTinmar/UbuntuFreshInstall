@@ -55,7 +55,7 @@ StartupNotify=true
 MimeType=image/*;
 Icon=${HOME}/.local/Fiji.app/images/icon.png
 StartupWMClass=net-imagej-launcher-ClassLauncher
-' > ~/.local/share/applications/Fiji.desktop
+" > ~/.local/share/applications/Fiji.desktop
 ```
 
 # discord
