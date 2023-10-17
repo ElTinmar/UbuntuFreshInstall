@@ -40,6 +40,22 @@ rm zoom.deb
 wget -O fiji.zip https://downloads.imagej.net/fiji/latest/fiji-linux64.zip
 sudo unzip fiji.zip -d ~/.local/
 rm fiji.zip
+
+echo '[Desktop Entry]
+Name=Fiji
+GenericName=Fiji
+X-GNOME-FullName=Fiji
+Comment=Scientific Image Analysis
+Type=Application
+Categories=Education;Science;ImageProcessing;
+Exec=~/.local/Fiji.app/ImageJ-linux64 %F
+TryExec=~/.local/Fiji.app/ImageJ-linux64
+Terminal=false
+StartupNotify=true
+MimeType=image/*;
+Icon=~/.local/Fiji.app/images/icon.png
+StartupWMClass=net-imagej-launcher-ClassLauncher
+' > ~/.local/share/applications/Fiji.desktop
 ```
 
 # discord
