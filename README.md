@@ -25,24 +25,28 @@ wget -O zotero.tar.bz2 'https://www.zotero.org/download/client/dl?channel=releas
 tar -xvf zotero.tar.bz2 --directory ~/.local/
 ~/.local/Zotero_linux-x86_64/set_launcher_icon
 ln -s ~/.local/Zotero_linux-x86_64/zotero.desktop ~/.local/share/applications/zotero.desktop
+rm zotero.tar.bz2
 ```
 
 # zoom
 ```
 wget -O zoom.deb https://zoom.us/client/latest/zoom_amd64.deb
 sudo apt install ./zoom.deb
+rm zoom.deb
 ```
 
 # Fiji
 ```
 wget -O fiji.zip https://downloads.imagej.net/fiji/latest/fiji-linux64.zip
 sudo unzip fiji.zip -d ~/.local/
+rm fiji.zip
 ```
 
 # discord
 ```
 wget -O discord.deb 'https://discord.com/api/download?platform=linux&format=deb'
 sudo apt install ./discord.deb
+rm discord.deb
 ```
 
 # miniconda
@@ -56,6 +60,7 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 ```
 wget -O vscode.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
 sudo apt install ./vscode.deb
+rm vscode.deb
 ```
 
 # nordvpn
