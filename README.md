@@ -56,6 +56,8 @@ MimeType=image/*;
 Icon=${HOME}/.local/Fiji.app/images/icon.png
 StartupWMClass=net-imagej-launcher-ClassLauncher
 " > ~/.local/share/applications/Fiji.desktop
+
+ln -s ~/.local/Fiji.app/ImageJ-linux64 ~/.local/bin/fiji
 ```
 
 # discord
