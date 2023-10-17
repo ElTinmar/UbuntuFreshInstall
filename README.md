@@ -17,6 +17,17 @@ mendeley
 ```
 sudo snap install freecad bitwarden
 ```
+
+# zotero
+
+```
+wget -O zotero.tar.bz2 'https://www.zotero.org/download/client/dl?channel=release&platform=linux-x86_64'
+sudo mkdir /usr/local/zotero
+sudo tar -xvf zotero.tar.bz2 --directory /usr/local/
+sudo /usr/local/Zotero_linux-x86_64/set_launcher_icon
+ln -s /usr/local/Zotero_linux-x86_64/zotero.desktop ~/.local/share/applications/zotero.desktop
+```
+
 # zoom
 ```
 wget -O zoom.deb https://zoom.us/client/latest/zoom_amd64.deb
