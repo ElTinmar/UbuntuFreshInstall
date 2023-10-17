@@ -22,9 +22,9 @@ sudo snap install freecad bitwarden
 
 ```
 wget -O zotero.tar.bz2 'https://www.zotero.org/download/client/dl?channel=release&platform=linux-x86_64'
-sudo tar -xvf zotero.tar.bz2 --directory /usr/local/
-sudo /usr/local/Zotero_linux-x86_64/set_launcher_icon
-ln -s /usr/local/Zotero_linux-x86_64/zotero.desktop ~/.local/share/applications/zotero.desktop
+tar -xvf zotero.tar.bz2 --directory ~/.local/
+~/.local/Zotero_linux-x86_64/set_launcher_icon
+ln -s ~/.local/Zotero_linux-x86_64/zotero.desktop ~/.local/share/applications/zotero.desktop
 ```
 
 # zoom
@@ -35,7 +35,8 @@ sudo apt install ./zoom.deb
 
 # Fiji
 ```
-wget https://downloads.imagej.net/fiji/latest/fiji-linux64.zip
+wget -O fiji.zip https://downloads.imagej.net/fiji/latest/fiji-linux64.zip
+sudo unzip fiji.zip -d ~/.local/
 ```
 
 # discord
