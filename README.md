@@ -109,3 +109,9 @@ ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/github
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github
 ```
+
+add public key to github
+
+```
+cat ~/.ssh/github.pub
+```
