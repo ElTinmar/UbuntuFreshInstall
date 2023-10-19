@@ -38,7 +38,7 @@ rm zoom.deb
 # Fiji
 ```
 wget -O fiji.zip https://downloads.imagej.net/fiji/latest/fiji-linux64.zip
-sudo unzip fiji.zip -d ~/.local/
+unzip fiji.zip -d ~/.local/
 rm fiji.zip
 
 echo "[Desktop Entry]
