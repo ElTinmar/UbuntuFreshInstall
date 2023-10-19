@@ -104,6 +104,8 @@ sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
 
 # add ssh key for github
 
+```
 ssh-keygen -t ed25519 -C "your_email@example.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/yourkey
+```
