@@ -11,6 +11,12 @@ sudo apt install vim htop vlc inkscape ffmpeg texlive-full git \
   pandoc nvtop gstreamer1.0-plugins-*
 ```
 
+# prepare .local directory to store programs
+
+```
+mkdir ~/.local/bin
+```
+
 # snap / download deb / AppImage
 mendeley
 
