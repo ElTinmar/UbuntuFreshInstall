@@ -22,6 +22,7 @@ mendeley
 
 ```
 sudo snap install freecad bitwarden
+sudo snap connect freecad:removable-media
 ```
 
 # zotero
