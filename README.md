@@ -132,7 +132,7 @@ sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
 - gedit 
 - terminal : dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 - vim
-- htop
+- htop : mv htoprc ~/.config/htop/htoprc
 - keyboard shortcut for accents
 - setup google account (calendar,...)
 
