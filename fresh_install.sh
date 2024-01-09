@@ -12,6 +12,9 @@ sudo snap install bitwarden
 sudo snap install freecad
 sudo snap connect freecad:removable-media
 
+# slack
+sudo snap install slack
+
 # zotero
 wget -O zotero.tar.bz2 'https://www.zotero.org/download/client/dl?channel=release&platform=linux-x86_64'
 tar -xvf zotero.tar.bz2 --directory ~/.local/
