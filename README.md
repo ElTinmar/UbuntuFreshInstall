@@ -127,6 +127,12 @@ rm vscode.deb
 sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
 ```
 
+reboot computer 
+
+```
+nordvpn login
+```
+
 ## configure
 - thunderbird
 - gedit 
