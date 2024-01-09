@@ -130,7 +130,7 @@ sh <(wget -qO - https://downloads.nordcdn.com/apps/linux/install.sh)
 ## configure
 - thunderbird
 - gedit 
-- terminal
+- terminal : dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-terminal-profiles.dconf
 - vim
 - htop
 - keyboard shortcut for accents
