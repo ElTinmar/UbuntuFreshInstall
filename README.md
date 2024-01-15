@@ -142,7 +142,8 @@ nordvpn login
 - htop : mv htoprc ~/.config/htop/htoprc
 - keyboard shortcut for accents
 - setup google account (calendar,...)
-- Make Ubuntu use local time for hardware clock (solve dual boot system time mismatch): timedatectl set-local-rtc 1
+- In case of dual boot with Windows, make Ubuntu use local time for hardware clock: timedatectl set-local-rtc 1
+
 # add ssh key for github
 
 ```
