@@ -6,7 +6,7 @@ sudo apt update & sudo apt upgrade
 
 ```
 sudo apt install vim htop vlc inkscape ffmpeg blender texlive-full git \
-  net-tools gimp pdftk ubuntu-restricted-extras openssh-server \
+  net-tools gimp pdftk ubuntu-restricted-extras openssh-server libfuse2 \
   build-essential checkinstall pkg-config libgtk-3-dev libxcb-cursor0 \
   gparted pandoc nvtop wget curl cifs-utils gstreamer1.0-plugins-*
 ```
@@ -132,6 +132,12 @@ reboot computer
 
 ```
 nordvpn login
+```
+# Prusa Slicer 
+
+```
+curl -s https://api.github.com/repos/prusa3d/PrusaSlicer/releases/latest | grep "browser_download_url.*x64-GTK3.*AppImage" | cut -d : -f 2,3 | tr -d \" | wget -O ~/.local/bin/PrusaSlicer.AppImage -qi -
+chmod +x ~/.local/bin/PrusaSlicer.AppImage 
 ```
 
 ## configure
