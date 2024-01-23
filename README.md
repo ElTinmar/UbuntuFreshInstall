@@ -137,7 +137,14 @@ nordvpn login
 
 ```
 curl -s https://api.github.com/repos/prusa3d/PrusaSlicer/releases/latest | grep "browser_download_url.*x64-GTK3.*AppImage" | cut -d : -f 2,3 | tr -d \" | wget -O ~/.local/bin/PrusaSlicer.AppImage -qi -
-chmod +x ~/.local/bin/PrusaSlicer.AppImage 
+cd ~/.local/bin/ 
+chmod +x PrusaSlicer.AppImage
+./PrusaSlicer.AppImage --appimage-extract
+cd squashfs-root
+sed -i 's!Exec=prusa-slicer %F!Exec=~/.local/bin/PrusaSlicer.AppImage!g' PrusaSlicer.desktop
+cp PrusaSlicer.desktop ~/.local/share/applications/
+cd ~/.local/bin/
+rm -r squashfs-root
 ```
 
 ## configure
