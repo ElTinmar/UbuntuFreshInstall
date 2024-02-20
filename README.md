@@ -154,6 +154,8 @@ rm -r squashfs-root
 
 # Arduino IDE
 
+The arduino package in Ubuntu repositories is outdated. Download directly from github instead 
+
 ```
 curl -s https://api.github.com/repos/arduino/arduino-ide/releases/latest | grep "browser_download_url.*Linux_64bit.*AppImage" | cut -d : -f 2,3 | tr -d \" | wget -O ~/.local/bin/Arduino.AppImage -qi -
 cd ~/.local/bin
