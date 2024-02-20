@@ -9,7 +9,7 @@ sudo apt install vim htop vlc inkscape ffmpeg blender texlive-full git \
   net-tools gimp pdftk ubuntu-restricted-extras openssh-server libfuse2 \
   build-essential checkinstall pkg-config libgtk-3-dev libxcb-cursor0 \
   gparted pandoc nvtop wget curl cifs-utils gstreamer1.0-plugins-* \
-  mplayer arduino
+  mplayer 
 ```
 
 # prepare .local directory to store programs
@@ -150,6 +150,14 @@ sed -i 's!Icon=PrusaSlicer!Icon=/home/martin/.local/PrusaSlicer/PrusaSlicer.png!
 cp PrusaSlicer.desktop ~/.local/share/applications/
 cd ~/.local/bin/
 rm -r squashfs-root
+```
+
+# Arduino IDE
+
+```
+curl -s https://api.github.com/repos/arduino/arduino-ide/releases/latest | grep "browser_download_url.*Linux_64bit.*AppImage" | cut -d : -f 2,3 | tr -d \" | wget -O ~/.local/bin/Arduino.AppImage -qi -
+cd ~/.local/bin
+chmod +x Arduino.AppImage
 ```
 
 ## configure
