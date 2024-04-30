@@ -152,6 +152,27 @@ cd ~/.local/bin/
 rm -r squashfs-root
 ```
 
+# spacenavd
+
+Install from github
+
+```
+git clone https://github.com/FreeSpacenav/spacenavd.git
+cd spacenavd
+./configure
+make
+sudo make install
+```
+
+```
+sudo cp contrib/spacenavd.service /etc/systemd/system/spacenavd.service
+```
+
+Edit /etc/systemd/system/spacenavd.service under the [Service] section
+```
+Environment=XAUTHORITY=/run/user/1000/gdm/Xauthority
+Environment=DISPLAY=:1
+```
 # Arduino IDE
 
 The arduino package in Ubuntu repositories is outdated. Download directly from github instead 
@@ -185,3 +206,4 @@ add public key to github
 ```
 cat ~/.ssh/github.pub
 ```
+
