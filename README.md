@@ -152,7 +152,7 @@ cd ~/.local/bin/
 rm -r squashfs-root
 ```
 
-# Freecad AppImage 
+# Freecad AppImage (snap doesn't support spacemouse out of the box)
 ```
 curl -s https://api.github.com/repos/FreeCAD/FreeCAD/releases/latest | grep -m 1 "browser_download_url.*x86_64.AppImage" | cut -d : -f 2,3 | tr -d \" | wget -O ~/.local/bin/FreeCAD.AppImage -qi -
 cd ~/.local
