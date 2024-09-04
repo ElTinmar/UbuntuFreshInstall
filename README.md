@@ -84,6 +84,8 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 rm Miniconda3-latest-Linux-x86_64.sh
 ```
 
+Answer "yes" to alter .bashrc
+
 Use mamba solver by default 
 
 ```
