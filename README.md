@@ -215,4 +215,8 @@ add public key to github
 ```
 cat ~/.ssh/github.pub
 ```
+configure git:
+```
+git config --edit --global
+```
 
