@@ -23,6 +23,7 @@ mendeley
 
 ```
 sudo snap install freecad bitwarden
+sudo snap connect bitwarden:password-manager-service
 sudo snap connect freecad:removable-media
 sudo snap install slack
 ```
