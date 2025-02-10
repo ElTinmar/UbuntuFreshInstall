@@ -7,7 +7,7 @@ sudo apt update & sudo apt upgrade
 # apt
 
 ```bash
-sudo apt install vim htop vlc inkscape ffmpeg blender texlive-full git \
+sudo apt install vim htop btop vlc inkscape ffmpeg blender texlive-full git \
   net-tools gimp pdftk ubuntu-restricted-extras openssh-server libfuse2 \
   build-essential checkinstall pkg-config libgtk-3-dev libxcb-cursor0 \
   gparted pandoc nvtop wget curl cifs-utils gstreamer1.0-plugins-* \
