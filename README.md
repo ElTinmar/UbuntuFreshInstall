@@ -11,7 +11,7 @@ sudo apt install vim htop btop vlc inkscape ffmpeg blender texlive-full git \
   net-tools gimp pdftk ubuntu-restricted-extras openssh-server libfuse2 \
   build-essential checkinstall pkg-config libgtk-3-dev libxcb-cursor0 \
   gparted pandoc nvtop wget curl cifs-utils gstreamer1.0-plugins-* \
-  mplayer ocrmypdf system-config-printer
+  mplayer ocrmypdf system-config-printer wireguard wireguard-tools
 ```
 
 # prepare .local directory to store programs
