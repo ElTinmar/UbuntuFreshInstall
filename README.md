@@ -253,3 +253,10 @@ configure git:
 git config --edit --global
 ```
 
+Add to ssh config
+
+```bash
+Host github.com
+  IdentityFile ~/.ssh/github
+  AddKeysToAgent yes
+```
