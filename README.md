@@ -24,11 +24,9 @@ mkdir ~/.local/bin
 mendeley
 
 ```bash
-sudo snap install freecad bitwarden
+sudo snap install freecad bitwarden thunderbird slack dust
 sudo snap connect bitwarden:password-manager-service
 sudo snap connect freecad:removable-media
-sudo snap install slack
-sudo snap install dust
 ```
 
 # signal
