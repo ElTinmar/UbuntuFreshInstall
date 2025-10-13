@@ -102,7 +102,12 @@ rm Miniconda3-latest-Linux-x86_64.sh
 
 Answer "yes" to alter .bashrc
 
-Use mamba solver by default 
+Install auto-complete
+```bash
+conda install -c conda-forge conda-bash-completion
+```
+
+On older versions of conda use mamba solver
 
 ```bash
 conda update -n base conda
