@@ -60,7 +60,7 @@ rm zoom.deb
 # Fiji
 
 ```bash
-wget -O fiji.zip https://downloads.imagej.net/fiji/latest/fiji-linux64.zip
+wget -O fiji.zip https://downloads.imagej.net/fiji/stable/fiji-stable-linux64-jdk.zip
 unzip fiji.zip -d ~/.local/
 rm fiji.zip
 
