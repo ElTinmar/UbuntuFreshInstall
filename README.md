@@ -48,6 +48,15 @@ tar -xvf zotero.tar.bz2 --directory ~/.local/
 ln -s ~/.local/Zotero_linux-x86_64/zotero.desktop ~/.local/share/applications/zotero.desktop
 rm zotero.tar.bz2
 ```
+# R
+
+```bash
+sudo apt install r-base cmake libcurl4-openssl-dev libssl-dev libxml2-dev
+```
+```R
+install.packages('lme4')
+install.packages('tidyverse')
+```
 
 # zoom
 
